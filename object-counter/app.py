@@ -75,7 +75,7 @@ valid_labels, valid_n = nd.label(valid_mask)
 c1, c2, c3 = st.columns(3)
 c1.metric("사용된 임계값", int(th_val))
 c2.metric("전체 connected component 수", int(nums))
-c3.metric("✅ 최종 객체 수 (min_size 적용)", int(len(valid_idx)))
+c3.metric("✔️ 최종 객체 수 (min_size 적용)", int(len(valid_idx)))
 
 st.subheader("처리 단계별 결과")
 col1, col2, col3, col4 = st.columns(4)
