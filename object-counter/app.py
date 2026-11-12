@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit as st
 
 st.set_page_config(page_title="Object Counting", layout="wide")
-st.title("🔢 Object Counting Web App")
+st.title("📸 Object Counting Web App")
 st.write("이미지를 업로드하면 노이즈 제거 → 임계값 처리 → Connected Component 분석으로 객체 수를 계산합니다.")
 
 
